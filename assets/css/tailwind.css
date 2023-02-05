@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+@layer components {
+    .btn {
+        @apply bg-transparent text-slate-700 px-3 py-2 rounded-md text-sm;
+    }
+}
